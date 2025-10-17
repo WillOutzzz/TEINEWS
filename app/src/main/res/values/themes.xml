@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Tema principal de la app -->
+    <style name="Theme.TeiNews" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Color primario -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Color secundario -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Fondo -->
+        <item name="android:windowBackground">@color/white</item>
+
+        <!-- Sin ActionBar para usar Toolbar o NavBar propios -->
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>
